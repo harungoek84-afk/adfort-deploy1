@@ -1,0 +1,5 @@
+build:
+  builder: DOCKERFILE
+  dockerfilePath: Dockerfile
+start:
+  startCommand: node dist/src/index.js
